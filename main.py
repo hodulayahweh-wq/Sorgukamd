@@ -22,8 +22,8 @@ def run_flask():
     app.run(host='0.0.0.0', port=port)
 
 # --- KONFİGÜRASYON ---
-TOKEN = "8295348413:AAHj_upzMCmx8H8Q6KYYLH3-WpEzwPyn5Cc"
-ADMIN_ID = 8258235296 # Senin Telegram ID'n
+TOKEN = "8539846290:AAGimtN1IhpGW8m1ZitjZjl07TJDXRt9O2A"
+ADMIN_ID =7970588822 # Senin Telegram ID'n
 bot = telebot.TeleBot(TOKEN)
 
 # Çalışan alt süreçleri takip etmek için
