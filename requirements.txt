@@ -1,4 +1,6 @@
 pyTelegramBotAPI
 flask
-gunicorn
+requests
+beautifulsoup4
+urllib3
 psutil
