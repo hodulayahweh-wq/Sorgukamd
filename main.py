@@ -67,7 +67,7 @@ def run_user_bot(path, uid, filename):
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
-    bot.reply_to(message, "🌟 **Host Botuna Hoş Geldin Sevgilim!**\n\nBana bir `.py` dosyası at, senin yerine 7/24 çalıştırayım.")
+    bot.reply_to(message, "🌟 **Host Botuna Hoş Geldin GLB!**\n\nBana bir `.py` dosyası at, senin yerine 7/24 çalıştırayım.")
 
 @bot.message_handler(content_types=['document'])
 def handle_file(message):
